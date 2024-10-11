@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta>
+    <meta>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="modelos.html">Modelos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        
+        <form>
+        
+            <div class="form-group">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+            </div>
+
+          
+            <div class="form-spacing"></div>
+
+          
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+          
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono"><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+          
+            <div class="form-group">
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" required><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+
+            <div class="form-group">
+                <label for="tipo-consulta">Tipo de Consulta:</label><br>
+                <select id="tipo-consulta" name="tipo-consulta">
+                    <option value="general">Consulta General</option>
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="ventas">Ventas</option>
+                    <option value="otros">Otros</option>
+                </select><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+   
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+            <div class="form-group">
+                <label>Método de Contacto Preferido:</label><br>
+                <input type="radio" id="contacto-email" name="metodo-contacto" value="email" checked>
+                <label for="contacto-email">Email</label><br>
+                <input type="radio" id="contacto-telefono" name="metodo-contacto" value="telefono">
+                <label for="contacto-telefono">Teléfono</label><br>
+            </div>
+
+            <div class="form-spacing"></div>
+
+            
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+      
+        <section>
+            <h3>Información de contacto</h3>
+            <p><strong>Teléfono:</strong> +34 928 924 654</p>
+            <p><strong>Email de soporte:</strong> soporte@motoshonda.com</p>
+            <p><strong>Horario de atención:</strong> Lunes a Viernes de 9:00 AM a 5:00 PM</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Honda Motors.</p>
+    </footer>
+</body>
+</html>
